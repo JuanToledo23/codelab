@@ -1,0 +1,47 @@
+.login-container {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 100px 0;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login > label {
+  margin-top: 20px;
+}
+
+.form-login > input {
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 6px 8px;
+  border: solid 1px;
+}
+
+.form-login > input[type="submit"] {
+  margin-top: 15px;
+  border: unset;
+  color: rgb(255, 255, 255);
+  background-color: #0A66C2;
+  border-radius: 20px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.form-login > input[type="submit"]:hover {
+  background-color: #0e4c8a;
+}
+
+.form-login > .validation-label {
+  font-size: 11px;
+  margin-top: 1px;
+  color: red;
+}
+
+.button-disabled {
+  background-color: #ccc !important;
+  pointer-events: none !important;
+}
